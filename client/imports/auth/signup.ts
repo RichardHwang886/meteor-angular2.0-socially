@@ -5,6 +5,7 @@ import {MATERIAL_DIRECTIVES} from 'ng2-material';
 import {Router, RouterLink} from '@angular/router-deprecated';
 import {MD_INPUT_DIRECTIVES} from '@angular2-material/input';
 import {MdToolbar} from '@angular2-material/toolbar';
+import { Accounts } from 'meteor/accounts-base';
 
 @Component({
   selector: 'signup',

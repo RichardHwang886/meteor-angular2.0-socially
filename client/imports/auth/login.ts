@@ -5,7 +5,7 @@ import {MATERIAL_DIRECTIVES} from 'ng2-material';
 import {Router, RouterLink} from '@angular/router-deprecated';
 import {MD_INPUT_DIRECTIVES} from '@angular2-material/input';
 import {MdToolbar} from '@angular2-material/toolbar';
-
+import {Meteor  } from 'meteor/meteor';
 @Component({
   selector: 'login',
   directives: [MATERIAL_DIRECTIVES, RouterLink, MD_INPUT_DIRECTIVES, MdToolbar],

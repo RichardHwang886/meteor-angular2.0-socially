@@ -20,7 +20,7 @@ import {InjectUser} from 'angular2-meteor-accounts-ui';
 import {Login} from './imports/auth/login.ts';
 import {Signup} from './imports/auth/signup.ts';
 import {Recover} from './imports/auth/recover.ts';
-
+import {Meteor} from 'meteor/meteor';
 
 
 @Component({
@@ -36,7 +36,7 @@ import {Recover} from './imports/auth/recover.ts';
   { path: '/signup', as: 'Signup', component: Signup },
   { path: '/recover', as: 'Recover', component: Recover }
 ])
-@InjectUser()
+@InjectUser(null)
 class Socially extends MeteorComponent {
   user: Meteor.User;
 
